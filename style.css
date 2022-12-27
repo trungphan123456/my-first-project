@@ -1,1 +1,25 @@
-/* fuck you */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.test1 {
+    border: 1px solid #ccc;
+    width: 250px;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-password {
+    border: none;
+    padding: 8px;
+}
+
+.text-in {
+    text-decoration: none;
+    color: black;
+    float: right;
+}
